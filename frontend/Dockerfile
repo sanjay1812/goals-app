@@ -1,5 +1,5 @@
 # Stage 1 compile react app
-FROM node:14 AS stage
+FROM node:26-alpine AS stage
 
 WORKDIR /app
 

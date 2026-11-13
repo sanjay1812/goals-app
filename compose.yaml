@@ -12,12 +12,5 @@ services:
     depends_on:
       - mongodb
 
-  react-frontend:
-    build: ./frontend
-    ports:
-      - '3000:80'
-    depends_on:
-      - node-backend
-
 volumes:
   data:
